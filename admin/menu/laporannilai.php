@@ -6,4 +6,3 @@ if(isset($_GET['aksi'])){
 } else { 
     include "aksilaporannilai/tampil.php";
 }
-?>
