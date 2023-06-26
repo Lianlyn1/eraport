@@ -349,7 +349,7 @@ if (isset($_SESSION['user']) and isset($_SESSION['pass'])) {
         <footer class="page-footer">
             <div class="footer-copyright red lighten-2">
                 <div class="container">
-                    <span>2015 © Sistem Nilai Raport Online</span> <span class="right">Developed by <a class="grey-text text-lighten-4" href="http://www.facebook.com/rednubi">Ardika Darwis</a></span>
+                    <span><?= $currentYear = date("Y"); ?> © Sistem Nilai Raport Online</span> <span class="right"></span>
                 </div>
             </div>
         </footer>

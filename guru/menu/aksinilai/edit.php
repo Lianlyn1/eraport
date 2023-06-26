@@ -170,7 +170,7 @@
             <div class="row">
               <div class="input-field col s12">
                 <textarea id="keterangan" class="materialize-textarea validate" name="keterangan" length="120" maxlength="120" placeholder="Optional"><?php echo $data['keterangan']; ?></textarea>
-                <label for="keterangan">Keterangan</label>
+                <label for="keterangan">Keterangan (Sakit, Izin, Alfa)</label>
               </div>
             </div>
             <div class="row">

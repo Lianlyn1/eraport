@@ -27,8 +27,8 @@
 
         <div class="row">
           <div class="input-field col s12 center">
-            <img src="images/mdika.png" alt="" class="circle responsive-img valign profile-image-login">
-            <p class="center login-form-text">Raport Online SMK Mahardika Makassar</p>
+            <img src="images/mts.jpg" alt="" class="circle responsive-img valign profile-image-login">
+            <p class="center login-form-text">Raport Online MTs NU MIFTAHUL ULUM MARGASARI</p>
             <div class="divider"></div>
           </div>
         </div>
