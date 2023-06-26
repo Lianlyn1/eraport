@@ -92,7 +92,7 @@ list($thn, $bln, $tgl) = explode("-", $tgl_real);
 <p align="right">Makassar, <?php echo $tgl . " " . $r_bulan[(int)$bln - 1] . " " . $thn; ?></p>
 <table border="0">
     <tr>
-        <td width="330px" align="center">Kepala Sekolah SMK IK Mahardika</td>
+        <td width="330px" align="center">Kepala Sekolah MTs NU MIFTAHUL ULUM MARGASARI</td>
         <td width="70px">&nbsp;</td>
         <td width="270px" align="center">Wali Kelas</td>
     </tr>
@@ -112,7 +112,7 @@ list($thn, $bln, $tgl) = explode("-", $tgl_real);
         <td width="270px" align="center">&nbsp;</td>
     </tr>
     <tr>
-        <td width="330px" align="center"><b><u>Marselinus Mingge, Bc. HK, S.Sos, M.Si.</u></b></td>
+        <td width="330px" align="center"><b><u>Hj. Dra. Rokhmah</u></b></td>
         <td width="400px">&nbsp;</td>
         <td width="270px" align="center"><b><u><?php echo $walikelas; ?></u></b></td>
     </tr>
