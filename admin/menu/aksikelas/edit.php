@@ -51,15 +51,15 @@
               <div class="input-field col s12 m6 l6">
                 <select name="kelas" id="kelas">
                   <option value="pilih" selected disabled>- Pilih Kelas -</option>
-                  <option value="X" <?php if ($data['kelas'] == "X") {
+                  <option value="X" <?php if ($data['kelas'] == "VII") {
                                       echo "selected";
-                                    } ?>>X</option>
-                  <option value="XI" <?php if ($data['kelas'] == "XI") {
+                                    } ?>>VII</option>
+                  <option value="XI" <?php if ($data['kelas'] == "VIII") {
                                         echo "selected";
-                                      } ?>>XI</option>
-                  <option value="XII" <?php if ($data['kelas'] == "XII") {
+                                      } ?>>VIII</option>
+                  <option value="XII" <?php if ($data['kelas'] == "IX") {
                                         echo "selected";
-                                      } ?>>XII</option>
+                                      } ?>>IX</option>
                 </select>
                 <label>Kelas</label>
               </div>

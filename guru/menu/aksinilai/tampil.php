@@ -9,9 +9,9 @@
               <div class="input-field col s12 m3 l3">
                 <select name="kelas" id="kelas">
                   <option value="pilih" selected disabled>- Pilih Kelas -</option>
-                  <option value="X">X</option>
-                  <option value="XI">XI</option>
-                  <option value="XII">XII</option>
+                  <option value="VII">VII</option>
+                  <option value="VIII">VIII</option>
+                  <option value="IX">IX</option>
                 </select>
                 <label>Kelas</label>
               </div>
