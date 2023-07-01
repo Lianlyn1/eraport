@@ -73,7 +73,7 @@ $singkatnama=substr($_SESSION['nama'], 0, 7);
         <div class="navbar-fixed">  
             <nav class="red lighten-2">
                 <div class="nav-wrapper">
-                    <h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1">Raportku</a></h1>
+                    <h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1">Raport Online</a></h1>
                     <ul class="right hide-on-med-and-down">
                         <li class="search-out">
                             <input type="text" class="search-out-text">

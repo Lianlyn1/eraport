@@ -12,7 +12,7 @@
       <div class="col s12 m12 l12">
           <div class="card-panel">
               <h5 class="light">Halaman Dashboard</h5>
-              <p class="light"> Hai <code class="language-markup"><?php echo $_SESSION['nama']; ?></code>, selamat datang di aplikasi Raportku!</p>
+              <p class="light"> Hai <code class="language-markup"><?php echo $_SESSION['nama']; ?></code>, selamat datang di aplikasi Raport Online!</p>
               <div class="divider"></div>
               <div id="card-stats" class="section">
 
