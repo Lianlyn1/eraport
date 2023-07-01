@@ -47,7 +47,7 @@
                 </select>
                 <label>Nama Kelas</label>
               </div>
-              <div class="input-field col s12 m6 l6">
+              <div class="input-field col s12 m6 l6" style="display: none;">
                 <select name="jurusan" id="jurusan">
                   <option value="pilih" disabled>- Pilih Jurusan -</option>
                   <option value="Rekayasa Perangkat Lunak" <?php if ($data['jurusan'] == "Rekayasa Perangkat Lunak") {

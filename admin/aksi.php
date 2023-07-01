@@ -1,3 +1,7 @@
+<?php
+ob_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -840,10 +844,10 @@ if (isset($menu) && $aksi == "hapus") {
 		exit();
 	} else {
 
-		$tambah = mysqli_query($connect, "insert into datakelas(kode_datakelas, kode_kelas, kode_siswa, jurusan)						
+		$tambah = mysqli_query($connect, "insert into datakelas(kode_datakelas, kode_kelas, kode_siswa)						
 						   VALUES('$_POST[kode_datakelas]', 
 						   '$kodekelas',
-						   '$kodesiswa', '$_POST[jurusan]')") or die("gagal" . mysqli_error($connect));
+						   '$kodesiswa')") or die("gagal" . mysqli_error($connect));
 		if ($tambah) {
 			echo "<script>swal({
 			title: 'Sukses!', 

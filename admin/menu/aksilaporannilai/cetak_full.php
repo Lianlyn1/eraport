@@ -25,7 +25,7 @@ $walikelas = $data['nama_guru'];
     <tr bgcolor="#64b5f6">
         <th>NIS</th>
         <th>Nama Siswa</th>
-        <th>Jurusan</th>
+        <!-- <th>Jurusan</th> -->
         <th>Semester</th>
         <th>Mata Pelajaran</th>
         <th>Tugas</th>
@@ -65,7 +65,7 @@ $walikelas = $data['nama_guru'];
         <tr bgcolor="<?php echo $warna; ?>">
             <td><?php echo "$data[nis]"; ?></td>
             <td><?php echo "$data[nama_siswa]"; ?></td>
-            <td><?php echo "$data[jurusan]"; ?></td>
+            <!-- <td><?php echo "$data[jurusan]"; ?></td> -->
             <td align="center"><?php echo "$data[semester]"; ?></td>
             <td><?php echo "$data[nama_pelajaran]"; ?></td>
             <td align="center"><?php echo "$data[nilai_tugas]"; ?></td>

@@ -13,7 +13,7 @@
                  <center>NIS</center>
                </th>
                <th>Nama Siswa</th>
-               <th>Jurusan</th>
+               <!-- <th>Jurusan</th> -->
                <th>
                  <center>Tahun Ajaran</center>
                </th>
@@ -43,7 +43,7 @@
                  <center>NIS</center>
                </th>
                <th>Nama Siswa</th>
-               <th>Jurusan</th>
+               <!-- <th>Jurusan</th> -->
                <th>
                  <center>Tahun Ajaran</center>
                </th>
@@ -78,7 +78,7 @@
                    <center><?php echo "$data[nis]"; ?></center>
                  </td>
                  <td><?php echo "$data[nama_siswa]"; ?></td>
-                 <td><?php echo "$data[jurusan]"; ?></td>
+                 <!-- <td><?php echo "$data[jurusan]"; ?></td> -->
                  <td>
                    <center><?php echo "$data[tahun_ajar]"; ?></center>
                  </td>

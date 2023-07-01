@@ -25,11 +25,11 @@
                       <td>:</td>
                       <td><?php echo $data['nama_siswa']; ?></td>
                    </tr>
-                   <tr>
+                   <!-- <tr>
                       <td>Jurusan</td>
                       <td>:</td>
                       <td><?php echo $data['jurusan']; ?></td>
-                   </tr>
+                   </tr> -->
                    <tr>
                       <td>Semester</td>
                       <td>:</td>

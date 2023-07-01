@@ -53,9 +53,9 @@ $walikelas = $data['nama_guru'];
         <td>Tahun Pelajaran</td>
         <td>:</td>
         <td><?php echo $data['tahun_ajar']; ?></td>
-        <td>Jurusan</td>
+        <!-- <td>Jurusan</td>
         <td>:</td>
-        <td><?php echo $data['jurusan']; ?></td>
+        <td><?php echo $data['jurusan']; ?></td> -->
     </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">

@@ -433,11 +433,11 @@
           form.kode_kelas.focus();
           return (false);
        }
-       if (form.jurusan.value == "pilih") {
-          Materialize.toast('Pilih Jurusan terlebih dahulu!', 5000);
-          form.jurusan.focus();
-          return (false);
-       }
+      //  if (form.jurusan.value == "pilih") {
+      //     Materialize.toast('Pilih Jurusan terlebih dahulu!', 5000);
+      //     form.jurusan.focus();
+      //     return (false);
+      //  }
        re = /^[a-zA-Z0-9 . , |]+$/;
        if (form.kode_siswa.value == "") {
           Materialize.toast('Nama Siswa tidak boleh kosong!', 5000);
