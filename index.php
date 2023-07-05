@@ -20,7 +20,7 @@
 </head>
 
 
-<body class="cyan">
+<body class="grey">
   <div id="login-page" class="row">
     <div class="col s12 card-panel z-depth-4" >
       <form class="login-form" method="post" action="cek_login.php" onSubmit="return validasi_login(this);">
