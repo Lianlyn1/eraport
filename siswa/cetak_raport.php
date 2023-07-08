@@ -19,7 +19,7 @@ $kelas = $_GET['id'];
 $sql = mysqli_query($connect, "SELECT siswa.kode_siswa, siswa.nis, siswa.nama_siswa,
                                         nilai.semester, pelajaran.nama_pelajaran,
                                         nilai.nilai_tugas, nilai.nilai_tugas2, nilai.nilai_tugas3, 
-                                        nilai.nilai_uts, nilai.nilai_uas,
+                                        nilai.nilai_uts, nilai.nilai_uas,nilai.keterangan,
                                         datakelas.jurusan, guru.nama_guru, kelas.kelas, kelas.tahun_ajar, kelas.nama_kelas
                                         FROM siswa, nilai, pelajaran, datakelas, guru, kelas
                                         WHERE siswa.kode_siswa=nilai.kode_siswa AND
@@ -53,9 +53,11 @@ $walikelas = $data['nama_guru'];
         <td>Tahun Pelajaran</td>
         <td>:</td>
         <td><?php echo $data['tahun_ajar']; ?></td>
-        <!-- <td>Jurusan</td>
+    </tr>
+    <tr>
+        <td>Keterangan</td>
         <td>:</td>
-        <td><?php echo $data['jurusan']; ?></td> -->
+        <td><?php echo $data['keterangan']; ?></td>
     </tr>
 </table>
 <table border="1" cellspacing="0" cellpadding="5">
