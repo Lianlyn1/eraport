@@ -21,7 +21,7 @@
 
         //menjadikan 201353 sebagai 6 karakter yang tetap
         $char = "S";
-        $char2 = "2015";
+        $char2 = "22";
         //%03s untuk mengatur 3 karakter di belakang 201353
         $IDbaru = $char . sprintf("%04s", $noUrut);
         $IDbaru2 = $char2 . sprintf("%03s", $noUrut);
