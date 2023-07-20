@@ -24,7 +24,7 @@
         $char2 = "22";
         //%03s untuk mengatur 3 karakter di belakang 201353
         $IDbaru = $char . sprintf("%04s", $noUrut);
-        $IDbaru2 = $char2 . sprintf("%03s", $noUrut);
+        $IDbaru2 = $char2 . sprintf("%04s", $noUrut);
         ?>
         <form id="formtambah" action="aksi.php?menu=siswa&aksi=tambah" method="post" onSubmit="return validasi_tambahsiswa(this);" enctype="multipart/form-data" class="col s12">
           <div class="row">
