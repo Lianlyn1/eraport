@@ -21,7 +21,7 @@
 </head>
 
 
-<body class="cyan">
+<body class="green">
   <div id="login-page" class="row">
     <div class="col s12 card-panel z-depth-4" >
       <form class="login-form" method="post" action="cek_login.php" onSubmit="return validasi_login(this);">
@@ -64,7 +64,7 @@
         
         <div class="row">
           <div class="input-field col s12">
-            <button class="btn waves-effect waves-light col s6 right pink darken-1" type="submit" name="login">Login
+            <button class="btn waves-effect waves-light col s6 right green" type="submit" name="login">Login
                             <i class="mdi-content-send right"></i>
                           </button>
           </div>

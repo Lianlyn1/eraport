@@ -55,7 +55,7 @@ $singkatnama=substr($_SESSION['nama'], 0, 9);
     <header id="header" class="page-topbar">
        <!-- Buka div navbar-fixed -->
         <div class="navbar-fixed">  
-            <nav class="red lighten-2">
+            <nav class="green">
                 <div class="nav-wrapper">
                     <h1 class="logo-wrapper"><a href="index.php" class="brand-logo darken-1">Raport Online</a></h1>
                     <ul class="right hide-on-med-and-down">
@@ -168,7 +168,7 @@ $singkatnama=substr($_SESSION['nama'], 0, 9);
 
     <!-- BUKA FOOTER -->
     <footer class="page-footer">
-    <div class="footer-copyright red lighten-2">
+    <div class="footer-copyright green">
       <div class="container">
        <span> <?= $currentYear = date("Y"); ?> © Sistem Nilai Raport Online</span> <span class="right">  </span>
         </div>
