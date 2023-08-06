@@ -8,4 +8,3 @@ if(isset($_GET['aksi'])){
 } else { 
     include "aksisiswa/tampil.php";
 }
-?>
